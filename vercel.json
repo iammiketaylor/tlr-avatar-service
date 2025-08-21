@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "functions": {
+    "api/render.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
+  "routes": [
+    { "src": "/avatar/render", "dest": "api/render.js" }
+  ]
+}
